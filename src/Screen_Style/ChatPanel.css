@@ -1,0 +1,119 @@
+@media (max-width: 1024px) {
+    .sidebar-container {
+        width: 100%;
+        max-width: 90%;
+        height: 100vh;
+    }
+
+    .profile-img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .search-bar {
+        padding: 8px;
+    }
+
+    .search-bar input {
+        font-size: 16px;
+    }
+
+    .user-card {
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    /* Hide icons and show hamburger menu */
+    .desktop-icons {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar-container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .profile-img {
+        height: 35px;
+        width: 35px;
+    }
+
+    .search-bar input {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .user-card {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    /* Icons in Mobile Menu */
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .mobile-menu svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Hide the desktop icons */
+    .desktop-icons {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar-container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .top-bar {
+        padding: 6px;
+    }
+
+    .profile-img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .search-bar input {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .user-card {
+        padding: 4px;
+        font-size: 12px;
+    }
+
+    /* Mobile menu adjustments */
+    .mobile-menu {
+        gap: 8px;
+    }
+
+    .mobile-menu svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+}

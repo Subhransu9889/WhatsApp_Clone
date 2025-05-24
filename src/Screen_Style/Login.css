@@ -1,0 +1,63 @@
+@media (max-width: 768px) {
+    .buttombox {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .leftside h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .leftside ol {
+        padding-left: 20px;
+        font-size: 14px;
+    }
+
+    .rightside {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .rightside svg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .signin-text {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .google-login {
+        width: 80%;
+        max-width: 300px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .leftside h1 {
+        font-size: 1.5rem;
+    }
+
+    .leftside p, .leftside ol {
+        font-size: 12px;
+    }
+
+    .rightside svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .signin-text {
+        font-size: 14px;
+    }
+
+    .google-login {
+        width: 90%;
+    }
+}
