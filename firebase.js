@@ -12,11 +12,11 @@ import { getStorage } from "firebase/storage"
 const firebaseConfig = {
   apiKey: process.env.FIREBASE_API_KEY,
   authDomain: "wa-clone-e5cce.firebaseapp.com",
-  projectId: "wa-clone-e5cce",
-  storageBucket: "wa-clone-e5cce.firebasestorage.app",
-  messagingSenderId: "873155561760",
+  projectId: process.env.FIREBASE_PROJECT_ID,
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.FIREBASE_MESSAGEING_SENDER_ID,
   appId: process.env.FIREBASE_API_ID,
-  measurementId: "G-PRZW7JE0MW"
+  measurementId: process.env.FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
